@@ -45,3 +45,30 @@
 
 /* Footer styles */
 
+#country {
+    padding: 12px 28px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #6f6f6f;
+    border-top: 1px solid lightgray;
+    overflow: hidden;
+}
+#footer #links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+#footer #links ul {
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+}
+#footer #links ul li {
+    padding: 12px 8px;
+    font-size: 13px;
+}
