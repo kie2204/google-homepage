@@ -1,0 +1,28 @@
+* {margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;-webkit-appearance: none;-moz-appearance: none;}
+
+#search-form {
+    text-align: center;
+}
+#search-form * {
+    display: inline-block;
+}
+#logo {
+    height: 100px;
+}
+#q {
+    font-size: 1rem;
+    width: 600px;
+    border-radius: 100px;
+    border: 1px solid lightgray;
+    padding: .75rem 1.25rem;
+    margin: 2rem;
+}
+.search-button {
+    padding: .66rem 1rem;
+    font-size: .9rem;
+    color: #666;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin: .25rem;
+}
