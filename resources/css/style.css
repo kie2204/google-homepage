@@ -79,7 +79,7 @@
 }
 #footer #links ul li:hover {
     text-decoration: underline;
-    
+
 }
 
 #privacy-reminder {
@@ -120,4 +120,3 @@
     background-color: #4285f4;
     color: white;
 }
-.privacy-reminder-button:clicked
