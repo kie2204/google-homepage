@@ -13,6 +13,11 @@
     font-size: 13px;
 }
 
+#header li:hover {
+    text-decoration: underline;
+    color: #222;
+}
+
 /* Search form styles */
 
 #search-form {
@@ -72,3 +77,47 @@
     padding: 12px 8px;
     font-size: 13px;
 }
+#footer #links ul li:hover {
+    text-decoration: underline;
+    
+}
+
+#privacy-reminder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 24px;
+}
+#privacy-reminder div {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#privacy-reminder-text {
+    padding: 0 24px;
+    color: black;
+}
+.privacy-reminder-button {
+    border: none;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    color: #4285f4;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+.privacy-reminder-button:hover {
+    background-color: rgba(153,153,153,.2);
+    cursor: pointer;
+}
+.privacy-reminder-button.review:hover {
+    background-color: #2265d4;
+    cursor: pointer;
+}
+.privacy-reminder-button.review {
+    background-color: #4285f4;
+    color: white;
+}
+.privacy-reminder-button:clicked
